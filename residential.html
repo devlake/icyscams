@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <title>OPPD Service Charge Hikes</title>
+  <meta name="description" content="Areas Small and Medium Business">
+  <meta name="keywords" content="scam,gouge">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Title here">
+  <meta name="twitter:description" content="Description here">
+  <meta name="twitter:image" content="https://sitec.devop.win/img/residential_rate.png">
+</head>
+
+<body>
+  <div class="container text-18 mt-5">
+    <h1 style="text-align:center;">OPPD Residential Service Charges</h1>
+    <div class="row mb-5">
+      <div class="col-lg-6 mt-5">
+        <h4>Lets take a look at how OPPD has raised service fees over the last few years.</h4>
+        <p>Adding $5 a month, $60 year for 3 years when they already had much higher service fees than MUD does for
+          their services, which are more maintenance intensive.</p>
+        <table class="table table-dark">
+          <thead>
+            <tr>
+              <th scope="col">Year</th>
+              <th scope="col">Service Charge</th>
+              <th scope="col">Yearly Charge</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">2015</th>
+              <td>$10.25</td>
+              <td>$123.00</td>
+            </tr>
+            <tr>
+              <th scope="row">2016</th>
+              <td>$15.00</td>
+              <td>$180.00</td>
+            </tr>
+            <tr>
+              <th scope="row">2017</th>
+              <td>$20.00</td>
+              <td>$240.00</td>
+            </tr>
+            <tr>
+              <th scope="row">2018</th>
+              <td>$25.00</td>
+              <td>$300.00</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="col-lg-6 mt-5">
+        <h4 class="text-center">Residential Service Charges</h4>
+        <canvas id="resChart" width="500" height="400"></canvas>
+      </div>
+    </div>
+  </div>
+
+  <div class="container text-18">
+    <div class="row">
+      <div class="col-lg-6 mt-4">
+        <h3 class="mb-4">2018 Rate</h3>
+        <h5>Rate 110 – Residential Service</h5>
+        <p>This rate applies to all residential dwellings.</p>
+        <p class="font-weight-bold">Service Charge: $25.00/month</p>
+        <p class="font-weight-bold">Summer (June 1 – Sept. 30)</p>
+        <ul>
+          <li>10.06 cents/kWh for all kWh</li>
+          <li>For kWh consumption more than 100 kWh and less than 401 kWh, a credit of $2.07 per month will be applied</li>
+        </ul>
+        <p class="font-weight-bold">Winter (Oct. 1 – May 31)</p>
+        <ul>
+          <li>9.29 cents/kWh for the first 100 kWh</li>
+          <li>8.03 cents/kWh for the next 900 kWh</li>
+          <li>5.67 cents/kWh for all additional kWh</li>
+        </ul>
+        <p>Minimum Monthly Bill: $27.07</p>
+      </div>
+      <div class="col-lg-6 mt-4">
+        <h3 class="mb-4">2017 Rate</h3>
+        <h5>Rate 110 – Residential Service</h5>
+        <p>This rate applies to all residential dwellings.</p>
+        <p class="font-weight-bold">Service Charge: $20.00/month</p>
+        <p class="font-weight-bold">Summer (June 1 – Sept. 30)</p>
+        <ul>
+          <li>10.73 cents/kWh for all kWh</li>
+          <li>For kWh consumption more than 100 kWh and less than 401 kWh, a credit of $2.07 per month will be applied</li>
+        </ul>
+        <p class="font-weight-bold">Winter (Oct. 1 – May 31)</p>
+        <ul>
+          <li>9.88 cents/kWh for the first 100 kWh</li>
+          <li>8.54 cents/kWh for the next 900 kWh</li>
+          <li>6.03 cents/kWh for all additional kWh</li>
+        </ul>
+        <p>Minimum Monthly Bill: $22.07</p>
+      </div>
+    </div>
+  </div>
+  <div class="container text-18">
+    <div class="row">
+      <div class="col-lg-6 mt-4">
+        <h3 class="mb-4">2016 Rate</h3>
+        <h5>Rate 110 – Residential Service</h5>
+        <p>This rate applies to all residential dwellings.</p>
+        <p class="font-weight-bold">Service Charge: $15.00/month</p>
+        <p class="font-weight-bold">Summer (June 1 – Sept. 30)</p>
+        <ul>
+          <li>11.42 cents/kWh for all kWh</li>
+          <li>For kWh consumption more than 100 kWh and less than 401 kWh, a credit of $2.07 per month will be applied</li>
+        </ul>
+        <p class="font-weight-bold">Winter (Oct. 1 – May 31)</p>
+        <ul>
+          <li>10.51 cents/kWh for the first 100 kWh</li>
+          <li>9.08 cents/kWh for the next 900 kWh</li>
+          <li>6.42 cents/kWh for all additional kWh</li>
+        </ul>
+        <p>Minimum Monthly Bill: $17.07</p>
+      </div>
+      <div class="col-lg-6 mt-4">
+        <h3 class="mb-4">2015 Rate</h3>
+        <h5>Rate 110 – Residential Service</h5>
+        <p>This rate applies to all residential dwellings.</p>
+        <p class="font-weight-bold">Service Charge: $10.25/month</p>
+        <ul>
+          <li>Energy Charge in cents/kWh</li>
+        </ul>
+        <p class="font-weight-bold">Summer (June 1 – Sept. 30)</p>
+        <ul>
+          <li>11.48 cents/kWh for all kWh</li>
+        </ul>
+        <p class="font-weight-bold">Winter (Oct. 1 – May 31)</p>
+        <ul>
+          <li>10.56 cents/kWh for the first 100 kWh</li>
+          <li>9.13 cents/kWh for the next 900 kWh</li>
+          <li>6.45 cents/kWh for all additional kWh</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="container pt-5 pb-5"></div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
+  <script src="js/resChart.js"></script>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
