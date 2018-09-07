@@ -1,4 +1,29 @@
+/*
+.navbar-dark .navbar-nav .nav-link {
+	color: rgba(255, 255, 255, 0.85);
+}
+*/
 .text-18 {
   font-size: 1.125rem;
   line-height: 1.75;
+}
+.navi-image {
+  background-image: linear-gradient(rgba(39, 83, 153, 0.8), rgba(39, 83, 153, 0.8)), url("/img/small_steps.png");
+}
+.jumbotron {
+    background: none;
+    color: white;
+}
+
+.navbar {
+    background-color: transparent !important;
+}
+
+.footclass {
+    background-color:#474747;
+    color: white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    font-size: .8rem;
 }
