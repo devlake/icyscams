@@ -1,1 +1,0 @@
-OPPD the sammers website

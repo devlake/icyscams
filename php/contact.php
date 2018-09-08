@@ -1,6 +1,6 @@
 <?php
 // require ReCaptcha class
-require('recaptcha/autoload.php');
+require('../recaptcha/autoload.php');
 
 // configure
 // an email address that will be in the From field of the email.
